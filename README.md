@@ -1,35 +1,60 @@
-# SQL Project
+<h1 align="center">🎬 SQL Project – DVD Rental Analysis</h1>
 
-This project is a SQL analysis project that includes several queries to analyze data related to film rentals.
+<p align="center">
+  A data analysis project using SQL to explore trends and insights in a film rental database.
+</p>
 
-## Project Structure
+---
 
-- **sql-project-submission-template-2.pdf**: The project documentation, including explanations and analysis.
-- **QUERES.txt**: Contains SQL queries used in the project.
-- **queries.sql**: The SQL file containing the main queries.
-- **restore.sql**: The SQL file used for restoring the database.
-- **dvd-rental-erd-2.pdf**: The Entity-Relationship Diagram (ERD) of the DVD rental database.
-- **dvdrental.zip**: The dataset file containing all the data required for the project. 
+## 📘 Project Overview
 
-## Queries Explained
+This project focuses on analyzing a film rental database using **SQL queries**.  
+We perform data exploration and extraction from a real-world DVD rental dataset to answer business-relevant questions and identify patterns in customer behavior, rental frequency, and film performance.
 
-- **Most Rented Family Movies**:
-  - This query retrieves the most rented movies in family-friendly categories like Animation, Children, Classics, Comedy, Family, and Music.
+---
 
-- **Rental Duration Quartiles**:
-  - This query divides family-friendly movies into quartiles based on their rental durations.
+## 📂 Project Structure
 
-- **Top 5 Categories for February**:
-  - This query lists the top 5 most rented film categories during the month of February.
+| File                              | Description                                                        |
+|-----------------------------------|--------------------------------------------------------------------|
+| `sql-project-submission-template-2.pdf` | Full documentation with explanations and query results         |
+| `QUERES.txt`                      | Raw SQL queries used in the analysis                              |
+| `queries.sql`                     | SQL script containing the core analysis queries                   |
+| `restore.sql`                     | SQL script to restore the database schema and data                |
+| `dvd-rental-erd-2.pdf`            | Entity Relationship Diagram (ERD) of the DVD rental database      |
+| `dvdrental.zip`                   | Compressed dataset with all necessary database files              |
 
-- **Rental Orders by Staff**:
-  - This query shows the number of rental orders processed by each staff member over time.
+---
 
-## How to Run
+## 📊 Key Queries and Their Purpose
 
-To run the SQL queries, you need access to a database with the appropriate schema and data. You can execute the queries in any SQL-compatible environment.
+- 🎞️ **Most Rented Family Movies**  
+  Retrieves top-rented movies from family-friendly genres like *Animation*, *Children*, *Comedy*, *Family*, and *Music*.
 
-## License
+- 📈 **Rental Duration Quartiles**  
+  Groups family-friendly films into quartiles based on how long they were rented on average.
+
+- 📅 **Top 5 Categories for February**  
+  Identifies the most popular film categories rented during the month of February.
+
+- 👨‍💼 **Rental Orders by Staff**  
+  Shows how many rental transactions each staff member processed over time.
+
+---
+
+## 🛠️ How to Run the Project
+
+1. Unzip `dvdrental.zip` and restore the database using `restore.sql` in your SQL environment (e.g., PostgreSQL).
+2. Run the queries from `queries.sql` or `QUERES.txt` inside your SQL tool.
+3. Review the output to gain insights into rental patterns and performance.
+
+💡 *Recommended Environment:* PostgreSQL (since the dataset is structured for it)
+
+---
+
+
+> 📌 This project demonstrates how structured query language (SQL) can be used to derive insights and support business decisions in media rental services.
+
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
