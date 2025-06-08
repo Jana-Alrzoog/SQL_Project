@@ -56,5 +56,4 @@ We perform data exploration and extraction from a real-world DVD rental dataset 
 > 📌 This project demonstrates how structured query language (SQL) can be used to derive insights and support business decisions in media rental services.
 
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
